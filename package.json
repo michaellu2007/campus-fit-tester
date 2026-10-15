@@ -1,0 +1,25 @@
+{
+  "name": "campus-fit-tester",
+  "version": "0.1.0",
+  "description": "自建校园体测系统接口测试客户端（WMPF/CDP 通道）—— 仅用于测试你自己部署的系统",
+  "main": "src/index.js",
+  "scripts": {
+    "setup:runtime": "node scripts/fetch-runtime.js",
+    "selfcheck": "node src/index.js selfcheck",
+    "wmpf-check": "node src/index.js wmpf-check"
+  },
+  "keywords": [
+    "wmpf",
+    "wechat",
+    "miniprogram",
+    "testing",
+    "campus"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.22.0"
+  }
+}

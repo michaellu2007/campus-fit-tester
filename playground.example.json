@@ -1,0 +1,6 @@
+{
+  "name": "示例操场",
+  "agencyId": 0,
+  "fenceCenter": [0, 0],
+  "track": { "straight": 0, "radius": 0 }
+}

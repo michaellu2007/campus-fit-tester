@@ -1,0 +1,47 @@
+{
+  "acknowledgeOwnSystem": false,
+  "server": {
+    "baseUrl": "https://your-server.example.com",
+    "endpoints": {
+      "login": "/public/public/login",
+      "fitnessQuery": "/webservice/wechat/student/fitness/queryOneStudentFitness.do",
+      "makeStroll": "/webservice/wechat/student/stroll/makeStroll.do",
+      "saveStroll": "/webservice/wechat/student/stroll/saveStroll.do",
+      "submitStroll": "/webservice/wechat/student/stroll/submitStroll.do"
+    }
+  },
+  "account": {
+    "phone": "",
+    "password": "",
+    "loginParams": {
+      "client_id": 1000,
+      "identity_type": 1
+    }
+  },
+  "school": {
+    "distanceCap": 8000,
+    "distanceMax": 8100
+  },
+  "device": {
+    "appid": "wx0000000000000000",
+    "brand": null,
+    "model": null,
+    "os": null
+  },
+  "run": {
+    "paceMin": 5.9,
+    "paceMax": 7.2,
+    "fastChance": 0.05,
+    "paceFastMin": 4.4,
+    "paceFastMax": 5,
+    "distanceScale": 0.9
+  },
+  "runtime": {
+    "dir": "runtime",
+    "cdpPort": 62000
+  },
+  "reads": {
+    "agencyId": "wx.getStorageSync('agencyId') || 0"
+  },
+  "playground": "playground.json"
+}
